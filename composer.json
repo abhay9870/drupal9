@@ -16,9 +16,10 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.1",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/bootstrap_sass": "^5.0",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/ip2country": "^2.0",
@@ -36,6 +37,7 @@
     "prefer-stable": true,
     "config": {
         "discard-changes": true,
+        "platform-check": false,
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
