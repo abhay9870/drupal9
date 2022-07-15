@@ -1,7 +1,7 @@
 {
   "name": "custom_theme",
   "version": "1.0.0",
-  "description": "",
+  "description": "my custom theme",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,15 +9,20 @@
   "author": "abhay",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-eslint": "^6.0.0",
     "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-livereload": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-imagemin": "^6.2.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "imagemin-pngquant": "^9.0.2",
+    "prettier": "^2.7.1",
     "sass": "^1.53.0"
   }
 }

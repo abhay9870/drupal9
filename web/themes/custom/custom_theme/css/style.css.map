@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,uCAAA,UAAA","file":"style.css","sourcesContent":["#block-custom-theme-page-title > h1 > span{color: blue;}"]}
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAAA,uCAAA,SAAA","file":"style.css","sourcesContent":["#block-custom-theme-page-title > h1 > span{color: red;}"]}
